@@ -18,4 +18,5 @@ jobs:
           cd ~
           pwd
           sudo useradd ashish
-          echo "ashish:password" | chpasswd
+          # sudo echo "password"  | passwd ashish --stdin
+          echo "ashish:password" | sudo chpasswd
