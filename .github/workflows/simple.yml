@@ -25,3 +25,13 @@ jobs:
           import platform 
           print(platform.processor())
         shell: python
+  powershell-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Present workind Directory(PowerShell)
+        run: Get_Location
+      - name: Directory Bash
+        run: pwd  
+        shell: bash
+
+    
