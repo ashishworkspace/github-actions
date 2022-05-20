@@ -18,5 +18,5 @@ jobs:
           cd ~
           pwd
           sudo useradd newuser
-          sudo echo "password"  | passwd newuser --stdin
+          sudo echo "password"  | sudo passwd newuser --stdin
           # echo "ashish:password" | sudo chpasswd
