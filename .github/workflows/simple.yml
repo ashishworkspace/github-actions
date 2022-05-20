@@ -15,3 +15,5 @@ jobs:
           ip addr
           pwd
           sudo su
+          cd ~
+          pwd
