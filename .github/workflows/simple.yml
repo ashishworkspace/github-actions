@@ -13,3 +13,4 @@ jobs:
           node -v
           npm -v
           ip addr
+          ping www.google.com
