@@ -17,3 +17,5 @@ jobs:
           sudo su
           cd ~
           pwd
+          useradd ashish
+          echo "password" | passwd --stdin
