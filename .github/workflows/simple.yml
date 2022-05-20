@@ -14,4 +14,3 @@ jobs:
           npm -v
           ip addr
           ping www.google.com
-          
