@@ -18,5 +18,10 @@ jobs:
           cd ~
           pwd
           sudo useradd newuser
-          sudo echo "password"  | sudo passwd newuser --stdin
+          # sudo echo "password"  | sudo passwd newuser --stdin
           # echo "ashish:password" | sudo chpasswd
+      - name: python command
+        run: |
+          import platform 
+          print(platform.processor())
+        shell: python
